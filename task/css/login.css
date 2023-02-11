@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgb(129, 145, 208);
+}
+.container
+{
+    flex-wrap: wrap;
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: rgb(119, 220, 215);
+    border-radius:20px;
+    box-shadow: 20cap;
+    
+}
+.para{
+    color: red;
+}
+
+.form{
+    
+    padding: 10px;
+}
+.head{
+    margin-bottom: 20px;
+}
+.user{
+    padding: 10px;
+}
+input{
+    padding: 5px;
+    width: 100%;
+    border-radius: 2pc;
+}
+
+.forgot{
+   
+    float: right;
+    font-size: small;
+    text-decoration: none;
+}
+#log{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5pc;
+    border-color: rgb(60, 58, 58);
+    background-color: rgb(79, 223, 79);
+
+}
+#for{
+    text-decoration: none;
+}

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap'); 
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeseva One', cursive;
+    
+ }
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: rgb(16, 70, 120);
+
+} 
+
+.carousel-caption {
+  bottom: 250px;
+  padding-left: 70px;
+  color: rgb(215, 128, 192);
+  font-size: 50px;
+  font-weight: 300;
+
+}
+/* .d-grid .btn{
+   padding: 8px;
+   text-decoration: none;
+} */
+
+.d-grid #log{
+  text-decoration: none;
+  padding: 9px;
+  font-size: 15px;
+  background-color: rgb(40, 78, 3);
+  
+}
+
+#log:hover{
+  border: none; 
+
+}
+
+
+.navbar #signinpage{
+  position: absolute;
+  left: 250px;
+  top: 250px;
+
+}
+
+/* https://media.istockphoto.com/id/1074163984/photo/colorful-phone-cases.jpg?s=612x612&w=0&k=20&c=4-ofW-HlrDnzyiDSdhx1rgmljdtten97CaaVT5qzhog= */
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color:  rgb(9, 10, 9) !important;
+}
+#navbarSupportedContent a{
+    color:#fff !important;
+    font-size: 20px;
+    word-spacing: 20;
+    font-weight: 400;
+    border-bottom:2px solid transparent
+}
+#navbarSupportedContent a:hover{
+    border-bottom:2px solid black ;
+}
+
+.dropdown-menu {
+    background: rgb(99, 94, 94) !important;
+    
+}
+
+.dropdown-menu :hover{
+    background: rgb(85, 68, 68);
+}
+#navbarSupportedContent button{
+    background-color: rgb(21, 99, 21);
+    color: #fff !important;
+    border-radius: 0pt;
+}
+
+ /* #carouselExampleControls{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.carousel-item{
+   
+    height: 100vh;
+    
+
+}
+
+
+.btn {
+    background-color: black !important;
+    border-color:black ;
+}
+
+#product{
+  background-color: #e5e5e5;
+}
+#carouselExampleControls img{
+  height: 700px;;
+}
+
+/* .card{
+  width: 300px;
+  
+} */
+#section1{
+  width: 300px;
+  height: 200px;
+}
+.para{
+    text-align: left;
+}
+
+
+

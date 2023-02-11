@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="con">
+        <div class="form">
+            <h2 class="head">Login</h2>
+            <form action="../html/website.html"  id="form" onsubmit="return call()">
+            <div class="user">
+                <input type="email" name="username" id="email" placeholder="Enter the username">
+                <p class="para" id="p"></p>
+            </div>
+            <div class="user">
+                <input type="password" name="password" id="password" placeholder="Enter the password">
+                <p class="para" id="p2"></p>
+            </div>
+            <div class="forgot">
+                <a href="../html/account.html" id="for">Create a New Account</a>
+            </div><br><br>
+            <div class="sub"><center>
+                <button id="log">Login</button>
+             </div>
+            </form>
+        </div>
+    </div>
+
+<script>
+ 
+ function call()
+ {
+    var a = document.getElementById("email");
+    var b = document.getElementById("password");
+    if(a.value=="")
+    {
+       
+       document.getElementById("p").innerHTML='Please Enter username'
+        return false;
+        
+    }
+    if(b.value=="")
+    {
+       
+       document.getElementById("p2").innerHTML='Please Enter password'
+        return false;
+        
+    }
+ }
+
+
+
+</script>
+
+
+
+</body>
+</html>
